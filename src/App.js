@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react"
 import "./App.css";
 import Header from "./components/Header";
 import Hours from "./components/Hours";
@@ -58,6 +59,7 @@ function App() {
 
         <Footer />
       </main>
+      <Analytics />
     </div>
   );
 }
